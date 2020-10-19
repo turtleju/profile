@@ -9,7 +9,15 @@ h1 {
   color: #d35656;
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
+  font-weight: 700;
   line-height: 12px;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  color: #d35656;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 h3 {
@@ -74,8 +82,8 @@ ul li{
   margin: 20px 0px;
 }
 
-.btn {
-  background-color: #d35656; /* Green */
+#btn {
+  background-color: #d35656;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -88,12 +96,14 @@ ul li{
   margin-top: 24px;
 }
 
-.btn:hover {
-  background-color: #c14f4f;
+#btn:hover {
+  background-color: #000000;
 }
 
 .img-circle {
   border-radius: 50%;
+  margin-bottom: 2rem;
+  filter: grayscale(1);
 }
 
 @media (max-width: 960px) {
