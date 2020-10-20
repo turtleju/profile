@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
 body {
-  background-color: #fefefe
+  background-color: #f8f9fb;
   color: #101010;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
 h1 {
-  color: #d35656;
+  color: #756af8;
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -15,7 +18,7 @@ h1 {
 }
 
 h2 {
-  color: #d35656;
+  color: #ff4d79;
   font-size: 18px;
   font-weight: 700;
 }
@@ -45,7 +48,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #d35656;
+  color: #756af8;
 }
 
 ul {
@@ -57,7 +60,7 @@ ul {
 ul li{
   display: inline;
   padding: 24px;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .container {
@@ -83,7 +86,7 @@ ul li{
 }
 
 #btn {
-  background-color: #d35656;
+  background-color: #ff4d79;
   border: none;
   color: white;
   padding: 15px 32px;
